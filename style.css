@@ -33,17 +33,14 @@ nav h1 {
   margin: 0;
 }
 
-nav button {
-  padding: 0.5rem 1rem;
-  background-color: var(--text-light);
-  color: var(--bg-dark);
-  border: none;
-  border-radius: 5px;
+nav label {
+  display: flex;
+  align-items: center;
   cursor: pointer;
 }
 
-nav button:hover {
-  opacity: 0.8;
+nav input[type="checkbox"] {
+  margin-right: 0.5rem;
 }
 
 .hero {
@@ -66,12 +63,12 @@ section {
   text-align: center;
 }
 
-.sectiondark {
+.section-dark {
   background-color: var(--bg-dark);
   color: var(--text-light);
 }
 
-.sectionlight {
+.section-light {
   background-color: var(--bg-light);
   color: var(--text-dark);
 }

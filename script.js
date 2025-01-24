@@ -1,6 +1,6 @@
-const darkModeToggle = document.getElementById('darkModeToggle');
+const darkModeCheckbox = document.getElementById('darkModeCheckbox');
     const body = document.body;
 
-    darkModeToggle.addEventListener('click', () => {
-      body.classList.toggle('dark-mode');
+    darkModeCheckbox.addEventListener('change', () => {
+      body.classList.toggle('dark-mode', darkModeCheckbox.checked);
     });
